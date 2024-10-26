@@ -50,8 +50,13 @@ height: 100%;
     font-size: 18px;
     font-weight: 800;
   
-    
+   
 }
+
+span {
+   
+    color: #ffa300 ;
+    }
   
 `;
 
@@ -61,9 +66,7 @@ font-style: italic;
   font-size: 40px;
   color: #fff;
 
-  span{
-    color: #ffb100;
-}
+
 `;
 
 

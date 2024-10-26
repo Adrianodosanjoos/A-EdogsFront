@@ -13,8 +13,8 @@ export const Banner = styled.div `
      height: 480px;
 
      h1 {
-         font-family: fantasy, sans-serif;
-        font-size: 80px;
+         font-family:"Road Rage", sans-serif;
+        font-size: 120px;
         color: #ffff;
         position: absolute;
         right: 20%;
@@ -28,7 +28,6 @@ background: linear-gradient(
     rgba(255,255,255, 0.5) 
 ),
 url('${Background}');
-height: 500px;
+
 `;
 
-export const Content = styled.div ``;
