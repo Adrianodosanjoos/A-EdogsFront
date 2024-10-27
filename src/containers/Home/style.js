@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import BannerHome from '../../assets/Banner-home.svg';
-import Background from '../../assets/background.svg'
+import Background from '../../assets/background.svg';
 
 
 
