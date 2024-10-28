@@ -4,6 +4,7 @@ import Background from '../../assets/background.svg';
 import { Link } from "react-router-dom";
 
 
+
 export const Container = styled.div`
 width: 100%;
 min-height: 100vh;
@@ -78,3 +79,4 @@ justify-content: center;
 max-width: 1280px;
 margin: 50px auto 0;
 `;
+
