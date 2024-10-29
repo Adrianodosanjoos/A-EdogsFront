@@ -6,7 +6,7 @@ export function Home() {
     return (
         <main>
         <Banner>
-            <h1>Bem-Vindo(a)!</h1>
+            <h1>Bem-<span>Vindo(a)!</span></h1>
         </Banner>
         <Container>
             <div>

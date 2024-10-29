@@ -81,16 +81,15 @@ export function Menu() {
                     <br />
                     HAMBURGER
                     <br />
-                    ESTÁ AQUI!
+                    ESTÁ <span>AQUI!</span>
 
-                    <span>Esse cardápio está irresistível!</span>
+                    <h4>Esse cardápio está irresistível!</h4>
                 </h1>
 
             </Banner>
 
-       
-
             <CategoryMenu>
+           
                 {categories.map((category) => (
                     <CategoryButton
                         key={category.id}
@@ -110,6 +109,17 @@ export function Menu() {
 
                     >{category.name}</CategoryButton>
                 ))}
+
+                  <button  onClick={() => {
+                            navigate(
+                                {
+                                    pathname: '/',
+                                    search: `/`
+                                },
+                            );
+                           
+                        }}>"Voltar"</button>
+
             </CategoryMenu>
 
             <ProductsContaines>
@@ -121,4 +131,4 @@ export function Menu() {
         </Container>
 
     );
-}
+} 

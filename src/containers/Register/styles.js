@@ -54,10 +54,12 @@ export const RightContainer = styled.div`
 `;
 
 export const Title = styled.h2`
- font-style: italic;
- font-weight: 800;
-  font-size: 40px;
-    color: #ffb100;
+ font-family:"Road Rage", sans-serif;
+ font-weight: 500;
+  font-size: 70px;
+   color: #ffa300 ;
+    
+    
     
 
 
@@ -106,4 +108,9 @@ export const InputContainner = styled.div`
 export const Link = styled(ReactLink)`
 text-decoration: none;
 color: #fff;
+
+&:hover{
+        color: #ffa300  ;
+       
+    }
 `;

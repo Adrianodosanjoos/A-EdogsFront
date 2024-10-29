@@ -54,16 +54,17 @@ height: 100%;
 }
 
 span {
-   
+    font-family:"Road Rage", sans-serif;
+    font-size: 55px;
     color: #ffa300 ;
     }
   
 `;
 
 export const Title = styled.h2`
-font-style: italic;
- font-weight: 800;
-  font-size: 40px;
+ font-family:"Road Rage", sans-serif;
+ font-weight: 500;
+  font-size: 60px;
   color: #fff;
 
 
@@ -118,6 +119,11 @@ export const InputContainner = styled.div`
 export const Link = styled(ReactLink)`
 text-decoration: none;
 color: #fff;
+
+&:hover{
+        color: #ffa300  ;
+       
+    }
 `;
 
     

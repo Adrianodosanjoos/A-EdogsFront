@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import BannerHamburger from '../../assets/Banner-hamburger.svg';
 import Background from '../../assets/background.svg';
-import { Link } from "react-router-dom";
+import { Link, } from "react-router-dom";
+
 
 
 
@@ -43,6 +44,14 @@ position: relative;
    }
 
    span {
+    font-family:"Road Rage", sans-serif;
+    font-size: 80px;
+    line-height: 65px;
+    color:  #ff8c05;
+    
+   }
+
+   h4 {
     display: block;
     color: #fff;
     font-size: 20px;
@@ -55,9 +64,27 @@ display: flex;
 justify-content: center;
 gap: 50px;
 margin-top: 30px;
+
+button {
+    text-decoration: none;
+
+background: none;
+color:#ff0000  ;
+font-size: 24px;
+font-weight:700 ;
+padding-bottom: 5px;
+line-height: 20px;
+border: none;
+transition: 0.1,8s;
+}
+
+button:hover{
+    color: #ff8c05 ;
+}
+
 `;
 
-export const CategoryButton = styled(Link)`
+export const CategoryButton  = styled(Link)`
 text-decoration: none;
 cursor: pointer;
 background: none;
@@ -68,6 +95,9 @@ padding-bottom: 5px;
 line-height: 20px;
 border: none;
 border-bottom: ${props => props. $isActiveCategory && '3px solid #ff0000'};
+
+
+
 `;
 
 export const ProductsContaines = styled.div`
