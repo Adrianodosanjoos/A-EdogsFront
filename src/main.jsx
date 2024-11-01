@@ -6,6 +6,8 @@ import { router } from  './routes'
 
 
 import GlobalStyles from './styles/globalStyles';
+import AppProvider from './hooks';
+
 
 
 
@@ -13,8 +15,10 @@ import GlobalStyles from './styles/globalStyles';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <AppProvider>
    <RouterProvider router={router}/>
    <GlobalStyles />
    <ToastContainer autoClose={3000} theme='colored'/>
+   </AppProvider>
   </StrictMode>,
 );
