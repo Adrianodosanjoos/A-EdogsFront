@@ -110,15 +110,7 @@ export function Menu() {
                     >{category.name}</CategoryButton>
                 ))}
 
-                  <button  onClick={() => {
-                            navigate(
-                                {
-                                    pathname: '/',
-                                    search: `/`
-                                },
-                            );
-                           
-                        }}>"Voltar"</button>
+                 
 
             </CategoryMenu>
 

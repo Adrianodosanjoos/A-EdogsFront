@@ -13,6 +13,7 @@ export const Banner = styled.div `
      background-position: center;
      height: 480px;
      
+     
    
    
 

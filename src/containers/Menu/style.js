@@ -71,23 +71,9 @@ margin-top: 30px;
 
 
 
-button {
-    text-decoration: none;
 
-background: none;
-color:#ff0000  ;
-font-size: 24px;
-font-weight:700 ;
-padding-bottom: 5px;
-line-height: 20px;
-border: none;
-transition: 0.1,8s;
 
-&:hover{
-    color: #ff8c05 ;
-}
 
-}
 
 
 `;

@@ -31,16 +31,25 @@ div {
     align-items: center;
     gap: 20px;
 }
+
+hr {
+    height: 24px;
+    border: 1px solid #625e5e;
+}
 `;
 
 export const HeaderLink = styled(Link)`
-color: #fff;
+color: ${(props) => (props.$isActive ? ' #ff0000' : '#fff')};
+border-bottom: ${(props) => (props.$isActive ? ' 1px solid #ff0000' : 'none')};
+padding-bottom: 5px ;
 text-decoration: none;
 font-size: 14px;
-transition: 200ms;
+transition: color 200ms;
 
 &:hover {
     color: #ff8c05 ;
+    border-bottom: 1px solid #ff8c05 ;
+
 }
 `;
 
