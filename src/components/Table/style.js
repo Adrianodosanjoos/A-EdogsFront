@@ -6,7 +6,7 @@ border-collapse:collapse;
 background-color: rgba(0,0,0, 0.5);
 border-radius: 20px;
 font-family:"Road Rage", sans-serif;
-margin-left: 15%;
+
 
 `;
 
