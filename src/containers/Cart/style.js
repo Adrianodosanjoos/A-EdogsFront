@@ -13,6 +13,8 @@ background: linear-gradient(
  background-color: #000;
 min-height: 100vh;
 
+
+
 `;
 
 export const Banner = styled.div `
@@ -34,21 +36,23 @@ img {
 `;
 
 export const Title = styled.div `
-font-size: 32px;
-font-weight: 800;
+
 padding-bottom: 12px;
-color:  #ff8c05;
+color:  #ff0000;
 text-align: center;
 position: relative;
+font-size: 35px;
+font-weight: 700;
+
 
 &::after {
     position: absolute;
     left: calc(50% + -28px);
     bottom: 0;
     content: '';
-    width: 56px;
+    width: 76px;
     height: 4px;
-    background-color: #ff8c05;
+    background-color: #ff0000;
 
 }
 `;
