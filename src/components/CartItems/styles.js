@@ -32,9 +32,12 @@ button {
 `;
 
 export const EmptyCart = styled.p `
-font-size: 20px;
+
+font-size: 40px;
 text-align: center;
 font-size: bold;
+font-family:"Road Rage", sans-serif;
+color:   #ff8c05;
 `;
 
 export const TrashImage = styled.img`
