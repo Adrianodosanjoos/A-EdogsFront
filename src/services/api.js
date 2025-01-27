@@ -4,7 +4,7 @@ export const api = axios.create({
      
    //baseURL: 'https://a-e-dogs-main-atuazizado.vercel.app'
         
-    baseURL: 'https://dogsapii.netlify.app/'
+    baseURL: 'http://localhost:3001'
 });
 
 
